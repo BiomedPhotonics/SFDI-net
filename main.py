@@ -1,6 +1,6 @@
 """
-Created on Fri Jul  7 17:58:15 2023
-@author: Guowu Huang
+
+@author: Guowu Huang,hugowai@163.com
 
 """
 import os.path
