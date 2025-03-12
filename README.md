@@ -6,7 +6,7 @@ SFDI-net is built using a convolutional neural network (CNN) architecture inspir
 
 ## Data Files
 
-The data is stored in **[.bmp]** format, with the file name **[Demonstration]**.
+The data is stored in **[.bmp]** format and is located in the folder **[Demonstration]**.
 
 The **[TrainDATA]** folder contains the complete dataset used for model training, saved in **[.zip]** format. Upon decompression, a **[.mat]** file is obtained, which is used for training the model.
 
