@@ -21,8 +21,8 @@ The program can be executed simply by adjusting the code path.
 ```Python
 ##Picture path
 lbt_path = "Demonstration\LBT_pics"
-sample_path= "Demonstration\Samlpe_pics"
-save_path= "Demonstration"
+sample_path = "Demonstration\Samlpe_pics"
+save_path = "Demonstration"
 ```
 
 ## SFDI-net.py
