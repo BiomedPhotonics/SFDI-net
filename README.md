@@ -12,9 +12,6 @@ The data is stored in **[.bmp]** format and is located in the folder **[Demonstr
 The **[TrainDATA]** folder contains the complete dataset used for model training, stored in **[.zip]** format. Upon decompression, a **[.mat]** file is obtained, which serves as the input for model training. Specifically, the MTF dataset has a size of 1248×128×128×6, while the dataset for physiological parameters has a size of 1248×128×128×7.
 The following illustrates a set of two-dimensional images from the training dataset, featuring MTF and physiological parameters.
 
-![](README_md_files/86dd35a0-ff52-11ef-9a5e-6d899188a5b3.jpeg?v=1&type=image)
-
-![](README_md_files/85e8c380-ff52-11ef-9a5e-6d899188a5b3.jpeg?v=1&type=image)
 
 # Code Description
 
