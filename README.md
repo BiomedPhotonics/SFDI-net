@@ -15,6 +15,11 @@ The **[TrainDATA]** folder contains the complete dataset used for model training
 ## main.py
 
 This script generates the two-dimensional results of MTF (Modulation Transfer Function) and physiological parameters.
+The program can be executed simply by adjusting the code path.
+##Picture path
+lbt_path = "Demonstration\LBT_pics"
+sample_path= "Demonstration\Samlpe_pics"
+save_path= "Demonstration"
 
 ## SFDI-net.py
 
