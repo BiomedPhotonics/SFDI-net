@@ -3,6 +3,7 @@ import numpy as np
 import os
 from PIL import Image
 import math 
+import cv2 as  cv
 
 ##clean RGB
 def clean_RGB(I):
@@ -48,6 +49,10 @@ def Thr_phase_lbt(path, Win_size, DG):
     return AC, DC
 
 def Thr_phase_sample(img1, img2, img3, Win_size, DG):
+    img1 = cv.imread(img1)
+    img2 = cv.imread(img2)
+    img3 = cv.imread(img3)
+
     img1 = np.array(img1, dtype='float32')
     img2 = np.array(img2, dtype='float32')
     img3 = np.array(img3, dtype='float32')

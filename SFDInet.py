@@ -85,3 +85,9 @@ def get_model(img_size, num_classes,weight):
 # Build model
 model = get_model(img_size, num_classes, weight)
 model.load_weights('my_model_SFDInet.h5')
+
+def Model(MTF0):
+    MTF = np.expand_dims(MTF0, axis=0)
+    MTF_normalization = ((2.0*(MTF-x_min)/(x_max-x_min))-1.0)
+    prediction = model(MTF_normalization).numpy()
+    return 0.5*(prediction+1.0)*(y_max-y_min)+y_min

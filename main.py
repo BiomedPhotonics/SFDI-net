@@ -1,7 +1,7 @@
 """
 Created on Fri Jul  7 17:58:15 2023
-@author: Hugo —— A silly dog crying in the late night.
-% If you have any question, please feel free to contact with Baidu.
+@author: Guowu Huang
+
 """
 import os.path
 from Three_phase import Thr_phase_lbt, Thr_phase_sample
@@ -20,17 +20,17 @@ def main():
     DG = np.array([[[12.6, 12.5, 12.5]]], dtype='float32')
     ##config path/window size/ROI and file_path.ad_ratio
     ad_ratio = 0.9   
-    # Win_size0 = [1096,896,1352,1152] #图片中心256*256
-    Win_size0 = [968,768,1480,1280] #图片中心512*512
+    # Win_size0 = [1096,896,1352,1152] #Image Center 256*256
+    Win_size0 = [968,768,1480,1280] #Image Center 512*512
     """
     
-    Guys, don't forget to change the path.
+    don't forget to change the path.
     
     """ 
     ##Picture path
-    lbt_path = r"G:\hugo\20220419\lbt0"
-    sample_path= r"G:\notebook\test\Blood_glucose\Thr_pics\20220802"
-    save_path= r"G:\Article\temp\new"
+    lbt_path = "Demonstration\LBT_pics"
+    sample_path= "Demonstration\Samlpe_pics"
+    save_path= "Demonstration"
     
     ## get DC and AC of lbt by Three phase method
     AC0, DC0 = Thr_phase_lbt(lbt_path, Win_size0, DG)
