@@ -6,7 +6,8 @@ SFDI-net is built using a convolutional neural network (CNN) architecture inspir
 
 ## Data Files
 
-The data is stored in **[.bmp]** format and is located in the folder **[Demonstration]**.
+The data is stored in **[.bmp]** format and is located in the folder **[Demonstration]**.The **[LBT_pics]** folder contains the original images of Lambertian surfaces, whereas the **[Sample_pics]** folder includes the original images of human skin.
+
 
 The **[TrainDATA]** folder contains the complete dataset used for model training, stored in **[.zip]** format. Upon decompression, a **[.mat]** file is obtained, which serves as the input for model training. Specifically, the MTF dataset has a size of 1248×128×128×6, while the dataset for physiological parameters has a size of 1248×128×128×7.
 
